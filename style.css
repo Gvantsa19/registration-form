@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    max-width: 45vw;
+    width: 100%;
+    height: 100vh;
+}
+.reg-block {
+    padding-right: 250px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+.welcome {
+    font-family: 'Roboto', sans-serif;
+    color: #2D3748;
+    font-size: 16px;
+    font-weight: 400;
+}
+.toYour {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #1A202C;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 5px;
+}
+.Label {
+    color: #4A5568;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+input {
+    max-width: 350px;
+    width: 100%;
+    height: 6vh;
+    border: 2px solid #E8E8E8;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+.remember {
+    margin-right: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.resetPass {
+    margin: 20px 0;
+}
+.forgot {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B6CB0;
+}
+.login {
+    max-width: 347px;
+    width: 100%;
+    height: 6vh;
+    background-color: #04C35C;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.google {
+    max-width: 347px;
+    width: 100%;
+    height: 6vh;
+    background-color: #2D3748;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 65px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 200px;
+}
+.googleImg {
+    margin-right: 15px;
+}
+.dontAcc {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.join {
+    color: #2B6CB0;
+}
